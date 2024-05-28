@@ -11,3 +11,4 @@ Cette extension Google Chrome peut être un dernier recours pour être sûr-e de
 
 # Confidentialité
 Contrairement à la carte Fransgenre qui n'est accessible que par les membres de l'association Fransgenre, cette extension est accessible à tous-tes car toutes les informations utilisées sont publiques. 
+Toutes les sources sont disponnibles dans ce [répertoire](https://github.com/msw9/trans-doctolib-ressources)
