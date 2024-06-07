@@ -31,10 +31,10 @@ fetch('https://raw.githubusercontent.com/msw9/trans-doctolib-ressources/main/doc
 			name.appendChild(lien);
 			break;
 		} else if (docteurs[i]['transfriendly']==='True'){
-			name.style.color = "green";
+			name.style.color = "#00ff7f";//nouveau vert
 			icone.setAttribute("class","material-icons");
 			icone.style.paddingLeft = "20Px";
-			icone.style.color = "green";
+			icone.style.color = "#00ff7f";//nouveau vert
 			icone.textContent = "newspaper";
 			lien.href = docteurs[i]['source'];
 			lien.appendChild(icone);
