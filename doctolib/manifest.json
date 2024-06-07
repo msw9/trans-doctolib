@@ -1,16 +1,11 @@
-{  "manifest_version": 2,
+{
+  "manifest_version": 3,
   "name": "Trans Doctolib",
   "version": "1.0",
   "description": "Trans Doctolib est une extension pour Google Chrome qui permet de voir sur le profil Doctolib d'un praticien, s'il a signé une tribune pro ou anti-trans et d'accèder à la tribune en question en un clique.",
-  "icons": {    "48": "icons/logo.png"  },
+  "icons": { "48": "icons/logo.png" },
   "content_scripts": [
-  {      "matches": ["*://*.doctolib.fr/*"],
-      "js": ["paint_red.js"]    } 
-	  ],
-	"permissions": [
-  "storage",
-  "webRequest", 
-  "webRequestBlocking",
-  "*://localhost/*"
-]
+    { "matches": ["*://*.doctolib.fr/*"], "js": ["paint_red.js"] }
+  ],
+  "permissions": ["storage", "webRequest", "declarativeNetRequest"]
 }
